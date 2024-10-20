@@ -1,0 +1,43 @@
+/* styles.css */
+
+body {
+    background-color: #007BFF; /* Blue background */
+    color: #ffffff; /* White text for visibility */
+    font-family: 'Arial', sans-serif; /* Font styling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    text-align: center; /* Center text */
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    padding: 30px; /* Padding around the content */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+}
+
+h1 {
+    font-size: 2.5rem; /* Larger font size for the title */
+    margin: 0; /* Remove default margin */
+}
+
+p {
+    font-size: 1.2rem; /* Font size for the description */
+    margin: 10px 0; /* Space above and below the paragraph */
+}
+
+.qr-code {
+    margin-top: 20px; /* Space between header and QR code */
+    display: flex;
+    justify-content: center; /* Center QR code */
+    align-items: center;
+    height: 200px; /* Fixed height for QR code area */
+}
+
+.qr-code img {
+    max-width: 100%; /* Make sure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+}
