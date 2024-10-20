@@ -1,5 +1,5 @@
 {
-    "name": "web-qr",
+    "name": "CLING-MD",
     "version": "0.0.1",
     "description": "A multi functional whatsapp bot Web Qr Scanner.",
     "main": "index.js",
@@ -8,7 +8,7 @@
       "start": "node index.js"
     },
     "keywords": ["baileysQr","MdLogin", "Suhail-Md","whatsapp-bot","BotWhatsapp","whatsappMdLogin","adiwajshing/baileys","baileys-md-qr","multi-device-qr","md-qr","bot-qr","baileysQrScanner","wabot" ],
-    "author": "SuhailTechInfo",
+    "author": "whiz",
     "license": "MIT",
     "dependencies": {
       "@hapi/boom": "^10.0.1",
@@ -20,7 +20,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.dev/SuhailTechInfo/web-qr.git"
+        "url": "git+https://github.dev/Whizmburu/clind-md-pairing.git"
     }
   }
   
