@@ -14,16 +14,44 @@ const { Boom } = require("@hapi/boom");
 const PORT = process.env.PORT ||  5000
 const MESSAGE = process.env.MESSAGE ||  `
 ╔════◇
-║ *『 WAOW YOU CHOOSE SUHAIL-MD 』*
-║ _You complete first step to making Bot._
+║ *『  CLING-MD  SUCCESSFULLY LINKED』*
+║ _You've completed for  bot deployment._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║ *Ytube:* _youtube.com/SuhailTechInfo_
-║ *Owner:* _https://wa.me/923184474176_
+║
+║ *Github Repo:* _https://github.com/Whizmburu/cling-Md_
+║ *Scan:* _https://cling-md.onrender.com_
+║ *Contact owner:* _+254754783683_
 ║ *Note :*_Don't provide your SESSION_ID to_
 ║ _anyone otherwise that can access chats_
 ╚════════════════════════╝
+`
+
+const MESSAGE = process.env.MESSAGE ||  `
+╔════◇
+║ *『  YOU CANN JOIN HERE FOR MORE』*
+║ _Private coomunity✨✨✨✨._
+╚════════════════════════╝
+╔═════◇
+║  『••• visit here for more •••』
+║   
+║   
+║ ✨*https://chat.whatsapp.com/BGhx4RFgaODJhD0TsYd2fl*
+║ 
+║ *Note :*_Don't provide your SESSION_ID to_
+║ _anyone otherwise that can access chats_
+╚════════════════════════╝
+`
+  
+<p align="center">
+  <
+    <img alt="Suhail docs" height="300" src="https://telegra.ph/file/36035136f76c2768f8812.jpg">
+  </a>
+</p>
+ *Github Repo:* _https://github.com/Whizmburu/cling-Md_
+ *Scan:* _https://cling-md.onrender.com_
+
 `
 
 
@@ -44,7 +72,7 @@ if (fs.existsSync('./auth_info_baileys')) {
 
   const { default: SuhailWASocket, useMultiFileAuthState, Browsers, delay,DisconnectReason, makeInMemoryStore, } = require("@whiskeysockets/baileys");
   const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
-  async function SUHAIL() {
+  async function CLINNG() {
     const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys')
     try {
       let Smd =SuhailWASocket({ 
@@ -66,7 +94,7 @@ if (fs.existsSync('./auth_info_baileys')) {
 
 
 //===========================================================================================
-//===============================  SESSION ID    ===========================================
+//=============================== CLING SESSION ID    ===========================================
 //===========================================================================================
 
           let CREDS = fs.readFileSync(__dirname + '/auth_info_baileys/creds.json')
